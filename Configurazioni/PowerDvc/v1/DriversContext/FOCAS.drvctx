@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DriverContextSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MapPointToken>FOCAS</MapPointToken>
+  <Enabled>true</Enabled>
+  <DisplayName>FOCAS</DisplayName>
+  <Description>FOCAS</Description>
+  <DriverSettings>
+    <DriverInstanceName>UNKNOWN</DriverInstanceName>
+    <DriverUniqueID>37efb4e9-001a-4277-abfc-5ee05fb20e36</DriverUniqueID>
+    <DisplayName>UNKNOWN</DisplayName>
+    <Description>UNKNOWN</Description>
+    <ExtendedProperties />
+  </DriverSettings>
+  <DevicesSettings>
+    <DeviceSettings>
+      <MapPointToken>Applyca</MapPointToken>
+      <Enabled>true</Enabled>
+      <DisplayName>Applyca</DisplayName>
+      <Description>Applyca</Description>
+      <ConnectionSettings>
+        <Address>UNKNOWN</Address>
+        <UserName />
+        <DomainName />
+        <Port>0</Port>
+        <Timeout>5000</Timeout>
+        <ExtendedProperties>
+          <NameValueTypeGroupDTO>
+            <Name>DRIVER_CONNECTOR_FULLNAME</Name>
+            <Value>Atys.PowerDvc.Fanuc.Drivers.FanucDriverConnector</Value>
+            <ValueType>SystemString</ValueType>
+          </NameValueTypeGroupDTO>
+          <NameValueTypeGroupDTO>
+            <Name>DRIVER_CONNECTOR_RECONNECT_INTERVAL</Name>
+            <Value>5000</Value>
+            <ValueType>SystemInt</ValueType>
+          </NameValueTypeGroupDTO>
+          <NameValueTypeGroupDTO>
+            <Name>POLLING_TIME_INTERVAL</Name>
+            <Value>2000</Value>
+            <ValueType>SystemInt</ValueType>
+          </NameValueTypeGroupDTO>
+          <NameValueTypeGroupDTO>
+            <Name>USE_PING_FOR_CONN_STATE_EVAL</Name>
+            <Value>false</Value>
+            <ValueType>SystemBool</ValueType>
+          </NameValueTypeGroupDTO>
+          <NameValueTypeGroupDTO>
+            <Name>DEVICE_FAMILY</Name>
+            <Value>Fanuc</Value>
+            <ValueType>SystemString</ValueType>
+          </NameValueTypeGroupDTO>
+          <NameValueTypeGroupDTO>
+            <Name>DEVICE_TYPE</Name>
+            <Value>FanucCommon</Value>
+            <ValueType>SystemString</ValueType>
+          </NameValueTypeGroupDTO>
+        </ExtendedProperties>
+      </ConnectionSettings>
+      <AddressesSettings>
+        <AddressSettings>
+          <MapPointToken>Status</MapPointToken>
+          <Behaviour>Default</Behaviour>
+          <Enabled>true</Enabled>
+          <DisplayName>Status</DisplayName>
+          <Description>UNKNOWN</Description>
+          <ValueType>Text</ValueType>
+          <Attributes />
+          <Attributes2 />
+          <IsStrobe>false</IsStrobe>
+          <NotifyValueChangedOnInvalidCurrentValue>true</NotifyValueChangedOnInvalidCurrentValue>
+          <StrobeAddressListNames />
+          <GroupName />
+          <ValueScalingOptions>
+            <ScalingType>None</ScalingType>
+            <ConversionFactor>0</ConversionFactor>
+            <RangeActualMin>0</RangeActualMin>
+            <RangeActualMax>0</RangeActualMax>
+            <RangeScaledMin>0</RangeScaledMin>
+            <RangeScaledMax>0</RangeScaledMax>
+          </ValueScalingOptions>
+          <RoundingTypes>None</RoundingTypes>
+          <RoundingDigits>1</RoundingDigits>
+          <CounterResetAt>0</CounterResetAt>
+          <FunctionSettings>
+            <LibraryInstanceID>FANUC_COMMONS</LibraryInstanceID>
+            <FunctionID>ReadStatusInfo</FunctionID>
+            <IsForDriver>false</IsForDriver>
+            <IsForDriverConnector>true</IsForDriverConnector>
+            <FunctionParameters />
+            <DriverID>37EFB4E9-001A-4277-ABFC-5EE05FB20E36</DriverID>
+          </FunctionSettings>
+        </AddressSettings>
+        <AddressSettings>
+          <MapPointToken>Block</MapPointToken>
+          <Behaviour>Default</Behaviour>
+          <Enabled>true</Enabled>
+          <DisplayName>Block</DisplayName>
+          <Description>UNKNOWN</Description>
+          <ValueType>Text</ValueType>
+          <Attributes />
+          <Attributes2 />
+          <IsStrobe>false</IsStrobe>
+          <NotifyValueChangedOnInvalidCurrentValue>true</NotifyValueChangedOnInvalidCurrentValue>
+          <StrobeAddressListNames />
+          <GroupName />
+          <ValueScalingOptions>
+            <ScalingType>None</ScalingType>
+            <ConversionFactor>0</ConversionFactor>
+            <RangeActualMin>0</RangeActualMin>
+            <RangeActualMax>0</RangeActualMax>
+            <RangeScaledMin>0</RangeScaledMin>
+            <RangeScaledMax>0</RangeScaledMax>
+          </ValueScalingOptions>
+          <RoundingTypes>None</RoundingTypes>
+          <RoundingDigits>1</RoundingDigits>
+          <CounterResetAt>0</CounterResetAt>
+          <FunctionSettings>
+            <LibraryInstanceID>FANUC_COMMONS</LibraryInstanceID>
+            <FunctionID>ReadSelectedProgramExecutingBlock</FunctionID>
+            <IsForDriver>false</IsForDriver>
+            <IsForDriverConnector>true</IsForDriverConnector>
+            <FunctionParameters>
+              <AddressFunctionParameterSettings>
+                <ID>DataLen</ID>
+                <SourceValueType>FixedValue</SourceValueType>
+                <SystemType>System.Int32</SystemType>
+                <ValueAsString>128</ValueAsString>
+              </AddressFunctionParameterSettings>
+            </FunctionParameters>
+            <DriverID>37EFB4E9-001A-4277-ABFC-5EE05FB20E36</DriverID>
+          </FunctionSettings>
+        </AddressSettings>
+        <AddressSettings>
+          <MapPointToken>Start</MapPointToken>
+          <Behaviour>Virtual</Behaviour>
+          <Enabled>true</Enabled>
+          <DisplayName>Start</DisplayName>
+          <Description>UNKNOWN</Description>
+          <ValueType>Text</ValueType>
+          <Attributes />
+          <Attributes2 />
+          <IsStrobe>false</IsStrobe>
+          <NotifyValueChangedOnInvalidCurrentValue>true</NotifyValueChangedOnInvalidCurrentValue>
+          <StrobeAddressListNames />
+          <GroupName>GROUP</GroupName>
+          <ValueScalingOptions>
+            <ScalingType>None</ScalingType>
+            <ConversionFactor>0</ConversionFactor>
+            <RangeActualMin>0</RangeActualMin>
+            <RangeActualMax>0</RangeActualMax>
+            <RangeScaledMin>0</RangeScaledMin>
+            <RangeScaledMax>0</RangeScaledMax>
+          </ValueScalingOptions>
+          <RoundingTypes>None</RoundingTypes>
+          <RoundingDigits>1</RoundingDigits>
+          <CounterResetAt>0</CounterResetAt>
+        </AddressSettings>
+        <AddressSettings>
+          <MapPointToken>Articolo</MapPointToken>
+          <Behaviour>Default</Behaviour>
+          <Enabled>true</Enabled>
+          <DisplayName>Articolo</DisplayName>
+          <Description>UNKNOWN</Description>
+          <ValueType>Text</ValueType>
+          <Attributes />
+          <Attributes2 />
+          <IsStrobe>false</IsStrobe>
+          <NotifyValueChangedOnInvalidCurrentValue>true</NotifyValueChangedOnInvalidCurrentValue>
+          <StrobeAddressListNames />
+          <GroupName />
+          <ValueScalingOptions>
+            <ScalingType>None</ScalingType>
+            <ConversionFactor>0</ConversionFactor>
+            <RangeActualMin>0</RangeActualMin>
+            <RangeActualMax>0</RangeActualMax>
+            <RangeScaledMin>0</RangeScaledMin>
+            <RangeScaledMax>0</RangeScaledMax>
+          </ValueScalingOptions>
+          <RoundingTypes>None</RoundingTypes>
+          <RoundingDigits>1</RoundingDigits>
+          <CounterResetAt>0</CounterResetAt>
+          <FunctionSettings>
+            <LibraryInstanceID>FANUC_0I3XI</LibraryInstanceID>
+            <FunctionID>ReadCurrentExecutingProgramName</FunctionID>
+            <IsForDriver>false</IsForDriver>
+            <IsForDriverConnector>true</IsForDriverConnector>
+            <FunctionParameters />
+            <DriverID>37EFB4E9-001A-4277-ABFC-5EE05FB20E36</DriverID>
+          </FunctionSettings>
+        </AddressSettings>
+      </AddressesSettings>
+      <TriggersSettings>
+        <TriggerSettings>
+          <Condition>NotEqual</Condition>
+          <AddressMapPointToken>Status</AddressMapPointToken>
+          <Value1 />
+          <Value2 />
+          <ValueType>Text</ValueType>
+          <TriggerID>9e30ba5a-34e9-4022-82ed-e70e549add01</TriggerID>
+          <DisplayName>CheckEsecuzione</DisplayName>
+          <ReactionBoxes>
+            <ReactionBoxSettings>
+              <ActionSettings>
+                <Reaction>SetAddressValue</Reaction>
+                <MesResourceName>UNKNOWN</MesResourceName>
+                <DisplayName>CheckEsecuzione</DisplayName>
+                <Parameters />
+                <Output>
+                  <PulseTimeIntervalinMS>1000</PulseTimeIntervalinMS>
+                  <FullyQualifiedName />
+                  <SetValue>High</SetValue>
+                </Output>
+                <DelayInMs>0</DelayInMs>
+                <SetAddressValue>
+                  <FullyQualifiedName>{FOCAS}{TO077}{Start}</FullyQualifiedName>
+                  <ValueAsString>{FOCAS}{TO077}{Status}</ValueAsString>
+                  <OperationType>SetValue</OperationType>
+                  <SourceValueType>SourceAbsoluteValue</SourceValueType>
+                  <SourceManipulation>SubString</SourceManipulation>
+                  <SourceManipulationIndexes>2</SourceManipulationIndexes>
+                  <SourceManipulationLength>1</SourceManipulationLength>
+                  <SourceManipulationSplitString />
+                </SetAddressValue>
+                <FunctionCall>
+                  <AddressFullyQualifiedName />
+                  <SetFuncResultAsAddressCurrentValue>false</SetFuncResultAsAddressCurrentValue>
+                </FunctionCall>
+                <SetBit>
+                  <VirtualAddressFQN />
+                  <BitPosition>0</BitPosition>
+                </SetBit>
+              </ActionSettings>
+            </ReactionBoxSettings>
+          </ReactionBoxes>
+          <Evaluator>
+            <EvaluatorType>Default</EvaluatorType>
+            <TimeInterval>0</TimeInterval>
+            <TimeoutThresholdPerc>0</TimeoutThresholdPerc>
+            <TimeIntervalTolerance>0</TimeIntervalTolerance>
+            <CheckIntervalThresholdPerc>0</CheckIntervalThresholdPerc>
+            <RecurringReactionsTimeInterval>0</RecurringReactionsTimeInterval>
+          </Evaluator>
+          <RoundingTypes>None</RoundingTypes>
+          <RoundingDigits>1</RoundingDigits>
+        </TriggerSettings>
+        <TriggerSettings>
+          <Condition>Equal</Condition>
+          <AddressMapPointToken>Start</AddressMapPointToken>
+          <Value1>3</Value1>
+          <Value2 />
+          <ValueType>Text</ValueType>
+          <TriggerID>92466e10-bc6d-4a4b-90f6-627accb3a80c</TriggerID>
+          <DisplayName>ProductStart</DisplayName>
+          <ReactionBoxes>
+            <ReactionBoxSettings>
+              <ActionSettings>
+                <Reaction>MesArticleStarted</Reaction>
+                <MesResourceName>TO077</MesResourceName>
+                <DisplayName>ProductStart</DisplayName>
+                <Parameters>
+                  <DataParameterSettings>
+                    <Parameter>Fixed</Parameter>
+                    <Identifier>PHASE</Identifier>
+                    <Content>10</Content>
+                    <Children />
+                  </DataParameterSettings>
+                  <DataParameterSettings>
+                    <Parameter>AddressRelation</Parameter>
+                    <Identifier>ART</Identifier>
+                    <Content>{FOCAS}{TO077}{Articolo}</Content>
+                    <Children />
+                  </DataParameterSettings>
+                </Parameters>
+                <Output>
+                  <PulseTimeIntervalinMS>1000</PulseTimeIntervalinMS>
+                  <FullyQualifiedName />
+                  <SetValue>High</SetValue>
+                </Output>
+                <DelayInMs>0</DelayInMs>
+                <SetAddressValue>
+                  <FullyQualifiedName />
+                  <ValueAsString />
+                  <OperationType>SetValue</OperationType>
+                  <SourceValueType>FixedValue</SourceValueType>
+                  <SourceManipulation>None</SourceManipulation>
+                  <SourceManipulationIndexes>0</SourceManipulationIndexes>
+                  <SourceManipulationLength>0</SourceManipulationLength>
+                  <SourceManipulationSplitString />
+                </SetAddressValue>
+                <FunctionCall>
+                  <AddressFullyQualifiedName />
+                  <SetFuncResultAsAddressCurrentValue>false</SetFuncResultAsAddressCurrentValue>
+                </FunctionCall>
+                <SetBit>
+                  <VirtualAddressFQN />
+                  <BitPosition>0</BitPosition>
+                </SetBit>
+              </ActionSettings>
+            </ReactionBoxSettings>
+          </ReactionBoxes>
+          <Evaluator>
+            <EvaluatorType>Default</EvaluatorType>
+            <TimeInterval>0</TimeInterval>
+            <TimeoutThresholdPerc>0</TimeoutThresholdPerc>
+            <TimeIntervalTolerance>0</TimeIntervalTolerance>
+            <CheckIntervalThresholdPerc>0</CheckIntervalThresholdPerc>
+            <RecurringReactionsTimeInterval>0</RecurringReactionsTimeInterval>
+          </Evaluator>
+          <RoundingTypes>None</RoundingTypes>
+          <RoundingDigits>1</RoundingDigits>
+        </TriggerSettings>
+        <TriggerSettings>
+          <Condition>Equal</Condition>
+          <AddressMapPointToken>Block</AddressMapPointToken>
+          <Value1>M30</Value1>
+          <Value2 />
+          <ValueType>Text</ValueType>
+          <TriggerID>a2980c50-3ae4-49ab-90a0-f48967d4f6af</TriggerID>
+          <DisplayName>ProductDone</DisplayName>
+          <ReactionBoxes>
+            <ReactionBoxSettings>
+              <ActionSettings>
+                <Reaction>MesProductDone</Reaction>
+                <MesResourceName>TO077</MesResourceName>
+                <DisplayName>ProductDone</DisplayName>
+                <Parameters>
+                  <DataParameterSettings>
+                    <Parameter>AddressRelation</Parameter>
+                    <Identifier>ART</Identifier>
+                    <Content>{FOCAS}{TO077}{Articolo}</Content>
+                    <Children />
+                  </DataParameterSettings>
+                  <DataParameterSettings>
+                    <Parameter>Fixed</Parameter>
+                    <Identifier>PHASE</Identifier>
+                    <Content>10</Content>
+                    <Children />
+                  </DataParameterSettings>
+                  <DataParameterSettings>
+                    <Parameter>Fixed</Parameter>
+                    <Identifier>QTY</Identifier>
+                    <Content>1</Content>
+                    <Children />
+                  </DataParameterSettings>
+                </Parameters>
+                <Output>
+                  <PulseTimeIntervalinMS>1000</PulseTimeIntervalinMS>
+                  <FullyQualifiedName />
+                  <SetValue>High</SetValue>
+                </Output>
+                <DelayInMs>0</DelayInMs>
+                <SetAddressValue>
+                  <FullyQualifiedName />
+                  <ValueAsString />
+                  <OperationType>SetValue</OperationType>
+                  <SourceValueType>FixedValue</SourceValueType>
+                  <SourceManipulation>None</SourceManipulation>
+                  <SourceManipulationIndexes>0</SourceManipulationIndexes>
+                  <SourceManipulationLength>0</SourceManipulationLength>
+                  <SourceManipulationSplitString />
+                </SetAddressValue>
+                <FunctionCall>
+                  <AddressFullyQualifiedName />
+                  <SetFuncResultAsAddressCurrentValue>false</SetFuncResultAsAddressCurrentValue>
+                </FunctionCall>
+                <SetBit>
+                  <VirtualAddressFQN />
+                  <BitPosition>0</BitPosition>
+                </SetBit>
+              </ActionSettings>
+            </ReactionBoxSettings>
+          </ReactionBoxes>
+          <Evaluator>
+            <EvaluatorType>Default</EvaluatorType>
+            <TimeInterval>0</TimeInterval>
+            <TimeoutThresholdPerc>0</TimeoutThresholdPerc>
+            <TimeIntervalTolerance>0</TimeIntervalTolerance>
+            <CheckIntervalThresholdPerc>0</CheckIntervalThresholdPerc>
+            <RecurringReactionsTimeInterval>0</RecurringReactionsTimeInterval>
+          </Evaluator>
+          <RoundingTypes>None</RoundingTypes>
+          <RoundingDigits>1</RoundingDigits>
+        </TriggerSettings>
+        <TriggerSettings>
+          <Condition>NotEqual</Condition>
+          <AddressMapPointToken>Start</AddressMapPointToken>
+          <Value1>3</Value1>
+          <Value2 />
+          <ValueType>Text</ValueType>
+          <TriggerID>df2c96b0-0b92-4007-b0d3-2c00d030eb99</TriggerID>
+          <DisplayName>ProductStop</DisplayName>
+          <ReactionBoxes>
+            <ReactionBoxSettings>
+              <ActionSettings>
+                <Reaction>MesProductDone</Reaction>
+                <MesResourceName>TO077</MesResourceName>
+                <DisplayName>ProductStop</DisplayName>
+                <Parameters>
+                  <DataParameterSettings>
+                    <Parameter>AddressRelation</Parameter>
+                    <Identifier>ART</Identifier>
+                    <Content>{FOCAS}{TO077}{Articolo}</Content>
+                    <Children />
+                  </DataParameterSettings>
+                  <DataParameterSettings>
+                    <Parameter>Fixed</Parameter>
+                    <Identifier>PHASE</Identifier>
+                    <Content>10</Content>
+                    <Children />
+                  </DataParameterSettings>
+                  <DataParameterSettings>
+                    <Parameter>Fixed</Parameter>
+                    <Identifier>QTY</Identifier>
+                    <Content>0</Content>
+                    <Children />
+                  </DataParameterSettings>
+                </Parameters>
+                <Output>
+                  <PulseTimeIntervalinMS>1000</PulseTimeIntervalinMS>
+                  <FullyQualifiedName />
+                  <SetValue>High</SetValue>
+                </Output>
+                <DelayInMs>0</DelayInMs>
+                <SetAddressValue>
+                  <FullyQualifiedName />
+                  <ValueAsString />
+                  <OperationType>SetValue</OperationType>
+                  <SourceValueType>FixedValue</SourceValueType>
+                  <SourceManipulation>None</SourceManipulation>
+                  <SourceManipulationIndexes>0</SourceManipulationIndexes>
+                  <SourceManipulationLength>0</SourceManipulationLength>
+                  <SourceManipulationSplitString />
+                </SetAddressValue>
+                <FunctionCall>
+                  <AddressFullyQualifiedName />
+                  <SetFuncResultAsAddressCurrentValue>false</SetFuncResultAsAddressCurrentValue>
+                </FunctionCall>
+                <SetBit>
+                  <VirtualAddressFQN />
+                  <BitPosition>0</BitPosition>
+                </SetBit>
+              </ActionSettings>
+            </ReactionBoxSettings>
+          </ReactionBoxes>
+          <Evaluator>
+            <EvaluatorType>Default</EvaluatorType>
+            <TimeInterval>0</TimeInterval>
+            <TimeoutThresholdPerc>0</TimeoutThresholdPerc>
+            <TimeIntervalTolerance>0</TimeIntervalTolerance>
+            <CheckIntervalThresholdPerc>0</CheckIntervalThresholdPerc>
+            <RecurringReactionsTimeInterval>0</RecurringReactionsTimeInterval>
+          </Evaluator>
+          <RoundingTypes>None</RoundingTypes>
+          <RoundingDigits>1</RoundingDigits>
+        </TriggerSettings>
+      </TriggersSettings>
+      <AddressGroupsSettings>
+        <AddressGroupSettings>
+          <GroupName>GROUP</GroupName>
+          <OPCRefreshInterval>250</OPCRefreshInterval>
+          <InnerDelay>0</InnerDelay>
+          <IsFunctionsGroup>false</IsFunctionsGroup>
+        </AddressGroupSettings>
+      </AddressGroupsSettings>
+      <ReconnectOnError>true</ReconnectOnError>
+      <DataTracingEnabled>false</DataTracingEnabled>
+      <DataPublishingEnabled>false</DataPublishingEnabled>
+    </DeviceSettings>
+  </DevicesSettings>
+</DriverContextSettings>

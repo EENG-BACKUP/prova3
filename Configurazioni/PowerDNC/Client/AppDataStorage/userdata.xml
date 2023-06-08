@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConnectionData>
+    <ServerName />
+    <Port>8000</Port>
+    <UserName>admin</UserName>
+    <Password>TJX1eYFvUf8oV5puSc7+V/4DzTbSfkoDEUL/CXBV9zM=</Password>
+    <IsLocalhost>true</IsLocalhost>
+    <IsSimpleUser>false</IsSimpleUser>
+  </ConnectionData>
+  <UiLayout>
+    <IsMessagePanelShown>true</IsMessagePanelShown>
+    <MessagePanelHeight>212</MessagePanelHeight>
+    <IsEndPointExplorerShown>true</IsEndPointExplorerShown>
+    <EndPointListWidth>498</EndPointListWidth>
+    <HiddenEndPointFilter />
+  </UiLayout>
+</UserSettings>

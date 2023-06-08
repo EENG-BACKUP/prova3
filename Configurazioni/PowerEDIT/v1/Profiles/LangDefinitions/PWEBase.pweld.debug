@@ -1,0 +1,152 @@
+<SyntaxLanguage Key="PWEBaseProfileDefLang" LanguageDefinitionVersion="4.0"
+Secure="True" xmlns="http://www.atys-srl.com/PowerEDIT/v1/ProfileLanguageDefinition">
+
+  <!-- String Properties -->
+  <Properties>
+    <Property Key="Creator" Value="Atys" />
+    <Property Key="Copyright" Value="Copyright (c) 2009 Atys.  All rights reserved." />
+  </Properties>
+<!-- Macros -->
+  <Macros>
+    <Macro Key="SymbolMacro" Value="[\-\+\.\,=]"/>
+    <Macro Key="NonSymbolMacro" Value="[^\-\+\.\,=]"/>
+    <Macro Key="AllCommandMacro" Value="[0-9\-\+\.\,=\s\n\t]"/>
+    <Macro Key="NonAllCommandMacro" Value="[^0-9\-\+\.\,=\s\n\t]"/>
+    <Macro Key="AllCommandMacroC" Value="[0-9\-\+\.\,=\s\t]"/>
+    <Macro Key="NonAllCommandMacroC" Value="[^0-9\-\+\.\,=\s\t]"/>
+    <Macro Key="AllCommandMacroCExt" Value="[0-9\-\+\.\,=\s\t\)\]\}]"/>
+    <Macro Key="NonAllCommandMacroCExt" Value="[^0-9\-\+\.\,=\s\t\)\]\}]"/>
+  </Macros>
+  <!-- Highlighting Styles -->
+  <Styles>
+<!-- Optional Styles to Override Built-In Styles -->
+    <Style Key="DefaultStyle" Name="Default Text" ForeColor="Blue" />
+    <Style Key="BracketHighlightingStyle" Name="Bracket Highlighted Text" Bold="False" BorderStyle="Solid" BackColor="LightGray" BorderColor="DarkGray"/>
+    <!-- Profile Styles -->
+    <Style Key="QStyle" ForeColor="Blue" />
+    <Style Key="WStyle" ForeColor="Blue" />
+    <Style Key="EStyle" ForeColor="Blue" />
+    <Style Key="RStyle" ForeColor="Blue" />
+    <Style Key="TStyle" ForeColor="Blue" />
+    <Style Key="YStyle" ForeColor="Blue" />
+    <Style Key="UStyle" ForeColor="Blue" />
+    <Style Key="IStyle" ForeColor="Blue" />
+    <Style Key="OStyle" ForeColor="Blue" />
+    <Style Key="PStyle" ForeColor="Blue" />
+    <Style Key="AStyle" ForeColor="Blue" />
+    <Style Key="SStyle" ForeColor="Blue" />
+    <Style Key="DStyle" ForeColor="Blue" />
+    <Style Key="FStyle" ForeColor="Blue" />
+    <Style Key="GStyle" ForeColor="Blue" />
+    <Style Key="HStyle" ForeColor="Blue" />
+    <Style Key="JStyle" ForeColor="Blue" />
+    <Style Key="KStyle" ForeColor="Blue" />
+    <Style Key="LStyle" ForeColor="Blue" />
+    <Style Key="ZStyle" ForeColor="Blue" />
+    <Style Key="XStyle" ForeColor="Blue" />
+    <Style Key="CStyle" ForeColor="Blue" />
+    <Style Key="VStyle" ForeColor="Blue" />
+    <Style Key="BStyle" ForeColor="Blue" />
+    <Style Key="NStyle" ForeColor="Blue" />
+    <Style Key="MStyle" ForeColor="Blue" />
+    <Style Key="CommandDelimiterStyle" ForeColor="Blue" />
+    <Style Key="CommandDefaultStyle" ForeColor="Blue" />
+    <Style Key="CommentDelimiterStyle" ForeColor="Blue" />
+    <Style Key="CommentDefaultStyle" ForeColor="Blue" />
+    <Style Key="NumberStyle" ForeColor="Blue" />
+  </Styles>
+<!-- States -->
+  <States>
+<!-- Code -->
+    <State Key="DefaultState">
+      <!-- Patterns Groups -->
+      <PatternGroups>
+        <!-- Whitespace -->
+        <RegexPatternGroup TokenKey="WhitespaceToken" PatternValue="{WhitespaceMacro}+" IsWhitespace="True" />
+        <!-- Line Terminators -->
+        <RegexPatternGroup TokenKey="LineTerminatorToken" PatternValue="{LineTerminatorMacro}" IsWhitespace="True" />
+        <!-- Brackets -->
+        <ExplicitPatternGroup Key="OpenParenthesisPatternGroup" TokenKey="OpenParenthesisToken" PatternValue="(" EndBracket="CloseParenthesisPatternGroup" />
+        <ExplicitPatternGroup Key="CloseParenthesisPatternGroup" TokenKey="CloseParenthesisToken" PatternValue=")" StartBracket="OpenParenthesisPatternGroup" />
+        <ExplicitPatternGroup Key="OpenCurlyBracePatternGroup" TokenKey="OpenCurlyBraceToken" PatternValue="{" EndBracket="CloseCurlyBracePatternGroup" />
+        <ExplicitPatternGroup Key="CloseCurlyBracePatternGroup" TokenKey="CloseCurlyBraceToken" PatternValue="}" StartBracket="OpenCurlyBracePatternGroup" />
+        <ExplicitPatternGroup Key="OpenSquareBracePatternGroup" TokenKey="OpenSquareBraceToken" PatternValue="[" EndBracket="CloseSquareBracePatternGroup" />
+        <ExplicitPatternGroup Key="CloseSquareBracePatternGroup" TokenKey="CloseSquareBraceToken" PatternValue="]" StartBracket="OpenSquareBracePatternGroup" />
+        <RegexPatternGroup TokenKey="AToken" PatternValue="A({AllCommandMacroC})+" Style="AStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="BToken" PatternValue="B({AllCommandMacroC})+" Style="BStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="CToken" PatternValue="C({AllCommandMacroC})+" Style="CStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="DToken" PatternValue="D({AllCommandMacroC})+" Style="DStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="EToken" PatternValue="E({AllCommandMacroC})+" Style="EStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="FToken" PatternValue="F({AllCommandMacroC})+" Style="FStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="GToken" PatternValue="G({AllCommandMacroC})+" Style="GStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="HToken" PatternValue="H({AllCommandMacroC})+" Style="HStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="IToken" PatternValue="I({AllCommandMacroC})+" Style="IStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="JToken" PatternValue="J({AllCommandMacroC})+" Style="JStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="KToken" PatternValue="K({AllCommandMacroC})+" Style="KStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="LToken" PatternValue="L({AllCommandMacroC})+" Style="LStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="MToken" PatternValue="M({AllCommandMacroC})+" Style="MStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="NToken" PatternValue="N({AllCommandMacroC})+" Style="NStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="OToken" PatternValue="O({AllCommandMacroC})+" Style="OStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="PToken" PatternValue="P({AllCommandMacroC})+" Style="PStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="QToken" PatternValue="Q({AllCommandMacroC})+" Style="QStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="RToken" PatternValue="R({AllCommandMacroC})+" Style="RStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="SToken" PatternValue="S({AllCommandMacroC})+" Style="SStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="TToken" PatternValue="T({AllCommandMacroC})+" Style="TStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="UToken" PatternValue="U({AllCommandMacroC})+" Style="UStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="VToken" PatternValue="V({AllCommandMacroC})+" Style="VStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="WToken" PatternValue="W({AllCommandMacroC})+" Style="WStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="XToken" PatternValue="X({AllCommandMacroC})+" Style="XStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="YToken" PatternValue="Y({AllCommandMacroC})+" Style="YStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <RegexPatternGroup TokenKey="ZToken" PatternValue="Z({AllCommandMacroC})+" Style="ZStyle" LookAhead="{NonDigitMacro}|{LineTerminatorMacro}|\z" />
+        <!-- Numbers -->
+        <RegexPatternGroup TokenKey="RealNumberToken" Style="NumberStyle" LookAhead="{NonDigitMacro}|\z">
+          <RegexPattern Value="[\+\-]? {DigitMacro}+ \. ({DigitMacro}+)*" />
+        </RegexPatternGroup>
+        <RegexPatternGroup TokenKey="IntegerNumberToken" Style="NumberStyle" PatternValue="[\+\-]? {DigitMacro}+" LookAhead="{NonDigitMacro}|\z" />
+      </PatternGroups>
+      <!-- Child States -->
+      <ChildStates>
+        <ChildState Key="CommandState" />
+        <ChildState Key="CommentState" />
+      </ChildStates>
+    </State>
+    <!-- Comments -->
+    <State Key="CommentState" TokenKey="CommentDefaultToken" Style="CommentDefaultStyle">
+      <!-- Scopes -->
+      <Scopes>
+        <Scope BracketHighlight="True">
+          <ExplicitPatternGroup Type="StartScope" TokenKey="CommentStartToken" Style="CommentDelimiterStyle" PatternValue="(" />
+          <!-- EndScope per commento che HA simbolo di fine commento -->
+          <ExplicitPatternGroup Type="EndScope" TokenKey="CommentEndToken" Style="CommentDelimiterStyle" PatternValue=")" />
+        </Scope>
+      </Scopes>
+      <!-- Patterns Groups -->
+      <PatternGroups>
+        <RegexPatternGroup TokenKey="CommentWhitespaceToken" PatternValue="{WhitespaceMacro}+" IsWhitespace="True" />
+        <RegexPatternGroup TokenKey="CommentWordToken" PatternValue="\w+" />
+        <!-- CommentLineTerminatorToken solo se HA simbolo di fine commento -->
+        <RegexPatternGroup TokenKey="CommentLineTerminatorToken" PatternValue="{LineTerminatorMacro}" IsWhitespace="True" />
+        <!-- Default token per commento che HA simbolo di fine commento -->
+        <RegexPatternGroup TokenKey="CommentDefaultToken" PatternValue="[^\)]" />
+      </PatternGroups>
+    </State>
+    <!--Commands-->
+    <State Key="CommandState" TokenKey="CommandDefaultToken" Style="CommandDefaultStyle">
+      <!--Scopes-->
+      <Scopes>
+        <Scope BracketHighlight="True">
+          <RegexPatternGroup Type="StartScope" TokenKey="CommandStartToken" Style="CommandDelimiterStyle" PatternValue="\(#" LookAhead="({AlphaMacro}|{AllCommandMacro})*#\)" />
+          <ExplicitPatternGroup Type="EndScope" TokenKey="CommandEndToken" Style="CommandDelimiterStyle" PatternValue="#)" />
+        </Scope>
+      </Scopes>
+      <!--Patterns Groups-->
+      <PatternGroups>
+        <RegexPatternGroup TokenKey="CommandWhitespaceToken" PatternValue="{WhitespaceMacro}+" IsWhitespace="True" />
+        <RegexPatternGroup TokenKey="CommandLineTerminatorToken" PatternValue="{LineTerminatorMacro}" IsWhitespace="True" />
+        <RegexPatternGroup TokenKey="CommandWordToken" PatternValue="\w+" />
+        <!-- Default token nega il simbolo di chiusura comando -->
+        <RegexPatternGroup TokenKey="CommandDefaultToken" PatternValue="[^#))]" />
+      </PatternGroups>
+    </State>
+  </States>
+</SyntaxLanguage>

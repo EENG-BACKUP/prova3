@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesServerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Enabled>false</Enabled>
+  <RemoteServerName>TRAVAGLINI</RemoteServerName>
+  <Port>8300</Port>
+  <ResetClientOnIdleTime>true</ResetClientOnIdleTime>
+  <ResetClientIdleTime>600</ResetClientIdleTime>
+  <ResetClientOnThresholdBeforeCommand>false</ResetClientOnThresholdBeforeCommand>
+  <ResetClientOnThresholdAfterCommand>false</ResetClientOnThresholdAfterCommand>
+  <ResetClientThreshold>0</ResetClientThreshold>
+</MesServerSettings>

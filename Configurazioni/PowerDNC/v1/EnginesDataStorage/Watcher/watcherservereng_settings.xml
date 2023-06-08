@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WatcherEngineSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RestartChannelOnSettingsChanged>true</RestartChannelOnSettingsChanged>
+  <ConnectDefaultBehaviour>DisconnectIfConnected</ConnectDefaultBehaviour>
+  <PrinterName />
+  <AsyncPrintJobs>false</AsyncPrintJobs>
+  <UsePrinterCustomMargins>false</UsePrinterCustomMargins>
+  <PrinterTopMargin>25</PrinterTopMargin>
+  <PrinterBottomMargin>25</PrinterBottomMargin>
+  <PrinterLeftMargin>15</PrinterLeftMargin>
+  <PrinterRightMargin>15</PrinterRightMargin>
+  <FileSystemMiniFilterDriverEnabled>false</FileSystemMiniFilterDriverEnabled>
+  <Storage>
+    <StorageConnectorType>Default</StorageConnectorType>
+    <SQLiteStorageSettings>
+      <FolderPath />
+      <DatabaseName />
+    </SQLiteStorageSettings>
+    <SQLServerStorageSettings>
+      <DatabaseInstanceName>(local)</DatabaseInstanceName>
+      <DatabaseName />
+      <UserName />
+      <UseIntegratedSecurity>false</UseIntegratedSecurity>
+    </SQLServerStorageSettings>
+  </Storage>
+  <StorageMaintenance>
+    <StorageMaintenanceEnabled>false</StorageMaintenanceEnabled>
+    <DeletedFilesMaintenanceEnabled>false</DeletedFilesMaintenanceEnabled>
+    <AllFilesEventsMaintenanceEnabled>false</AllFilesEventsMaintenanceEnabled>
+    <KeepLastDays>10</KeepLastDays>
+    <MaintenanceStartTime>
+      <Hours>4</Hours>
+      <Minutes>0</Minutes>
+      <Seconds>59</Seconds>
+    </MaintenanceStartTime>
+  </StorageMaintenance>
+</WatcherEngineSettings>

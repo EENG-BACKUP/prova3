@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEndPointSerializationStub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EndPointSerializationStub>
+    <Id>0</Id>
+    <Target>SerialComm</Target>
+    <Name>PROVA</Name>
+    <Description>PROVA</Description>
+    <DisplayName>PROVA</DisplayName>
+    <MachineName>PROVA</MachineName>
+    <Enabled>true</Enabled>
+  </EndPointSerializationStub>
+  <EndPointSerializationStub>
+    <Id>1</Id>
+    <Target>FtpServer</Target>
+    <Name>TEST_LOCAL</Name>
+    <Description>TEST_LOCAL</Description>
+    <DisplayName>TEST_LOCAL</DisplayName>
+    <MachineName>TEST_LOCAL</MachineName>
+    <Enabled>true</Enabled>
+  </EndPointSerializationStub>
+</ArrayOfEndPointSerializationStub>

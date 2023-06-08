@@ -1,0 +1,392 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ImportWinFormSupport
+</name>
+</assembly>
+<members>
+<member name="T:ImportWinFormSupport.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ImportWinFormSupport.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ImportWinFormSupport.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ImportWinFormSupport.ManageFiles.sPath">
+ <summary>
+ La proprietà si occupa di ottenere il Path
+ </summary>
+</member>
+<member name="P:ImportWinFormSupport.ManageFiles.sFileName">
+ <summary>
+ La proprietà si occupa di ottenere il Nomefile Corto
+ </summary>
+</member>
+<member name="P:ImportWinFormSupport.ManageFiles.sSource">
+ <summary>
+ La proprietà si occupa di ottenere la stringa sorgente da sostituire
+ </summary>
+</member>
+<member name="P:ImportWinFormSupport.ManageFiles.sReplace">
+ <summary>
+ La proprietà si occupa di ottenere la stringa destinazione da sostituire
+ </summary>
+</member>
+<member name="P:ImportWinFormSupport.ManageFiles.sGetspecifiedLineNumber">
+ <summary>
+ la proprietà ottiene una linea specificata
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.GetAndSetFileName(System.String,System.String)">
+ <summary>
+ Legge ed imposta il nome del file da gestire
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.FileCompare(System.String,System.String,System.String)">
+ <summary>
+ Confronta due files partendo dalla linea specificata (base 0), se sStart = 0 confronto tutto il file.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadAllSubPrograms(System.String)">
+ <summary>
+ Restituisce una stringa separata da "," contenente tutti i sottoprogrammi letti all'interno di un programma Fanuc o Mori Seiki.
+ Cerca i blocchi con M98 e se li trova, cerca i sub prg con Q o P.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadAllSubPrograms_Arr(System.String)">
+ <summary>
+ Restituisce un' arraylist contenente tutti i sottoprogrammi letti all'interno di un programma Fanuc o Mori Seiki.
+ Cerca i blocchi con M98 e se li trova, cerca i sub prg con Q o P.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadAllSubProgramsAtEnd(System.String)">
+ <summary>
+ Restituisce una stringa separata da "-" contenente tutti i sottoprogrammi letti in fondo ad un programma Fanuc o Mori Seiki.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadAllTxt">
+ <summary>
+ Restituisce l'intero file di testo come stringa "s_StringReaded"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadAllTxt_FullPath(System.String)">
+ <summary>
+ Restituisce l'intero file di testo (passato in sFullPath) come stringa "s_StringReaded"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadTxtToFrom(System.String,System.Int32,System.Int32)">
+ <summary>
+ Legge il file passato e restituisce una stringa che va da sStart a sEnd, se sEnd=0 leggo tutto
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadAllComments(System.String,System.String,System.String)">
+ <summary>
+ Restituisce un ArrayList monodimensionale, contenente tutti i commenti trovati
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadAllComments_2(System.String,System.String,System.String)">
+ <summary>
+ Restituisce un ArrayList bidimensionale, contenente tutti i commenti trovati e la riga in cui si trovano all'interno del file
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadAllSameString(System.String,System.String,System.String)">
+ <summary>
+ Restituisce un ArrayList monodimensionale, contenente tutte stringhe (sOpenComment) passate.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadAllSameString_2(System.String,System.String,System.String)">
+ <summary>
+ Restituisce un ArrayList bidimensionale, contenente tutte stringhe (sOpenComment) passate e la righe in cui si trovano all'interno del file
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadAllFullComment(System.String,System.String,System.String)">
+ <summary>
+ Restituisce un ArrayList bidimensionale, contenente tutte stringhe (sOpenComment, sEndComment) passate e la righe in cui si trovano all'interno del file
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadHeader">
+ <summary>
+ Restituisce l'initestazione del file (prima del %) come stringa "s_StringReaded"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadSpecifiedLine(System.Int32)">
+ <summary>
+ Restituisce la linea specificata di un determinato file"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadSpecifiedLine(System.String,System.Int32)">
+ <summary>
+ Restituisce la linea specificata di un determinato file"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadSpecifiedLine(System.String,System.String,System.Int32)">
+ <summary>
+ Restituisce la linea specificata di un determinato file"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadSpecifiedLinesRange(System.Int32,System.Int32,System.Boolean)">
+ <summary>
+ Restituisce un arraylist contenente le linee pecificate di un determinato file (da n a n)"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.SubDir(System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Restituisce una stringa contenente il DIR Custom di PWD, racchiuso dai comandi di carica.
+ Il file viene cercato in tutte le Subdir
+ Se bIsCnc = True, mando solo elenco dei file ".cnc"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.SubDir(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Int32,System.Int32,System.Boolean)">
+ <summary>
+ Restituisce una stringa contenente il DIR Custom di PWD racchiuso dai blocchi numerati con comandi di carica.
+ Passo blocco iniziale, Passo e prefisso (N).
+ Il file viene cercato in tutte le Subdir
+ Se bIsCnc = True, mando solo elenco dei file ".cnc"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.SpecialDir(System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Restituisce una stringa contenente il DIR Custom di PWD (senza Customer), racchiuso dai comandi di carica.
+ Se bIsCnc = True, mando solo elenco dei file ".cnc"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.SpecialDir(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Restituisce una stringa contenente il DIR Custom di PWD del Customer richiesto, racchiuso dai comandi di carica 
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.SpecialDir(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Restituisce una stringa contenente il DIR Custom di PWD con 2 subdir, racchiuso dai comandi di carica 
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadBlockToZero(System.Int32)">
+ <summary>
+ Restituisce n blocchi di un determinato file, partendo da dal primo"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReadBlockToFrom(System.Int32,System.Int32)">
+ <summary>
+ Restituisce n blocchi di un determinato file impostando un range di righe"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReplaceStrFound(System.String,System.String)">
+ <summary>
+ Sostituisce la prima stringa trovata all'interno del file, partendo dall'inizio"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReplaceStrFound(System.String,System.String,System.String)">
+ <summary>
+ Sostituisce la prima stringa trovata all'interno del file (fullpath), partendo dall'inizio"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReplaceStrFound(System.String,System.String,System.Int32)">
+ <summary>
+ Sostituisce n stringhe trovate all'interno del file, partendo dall'inizio"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReplaceAllStrFound(System.String,System.String)">
+ <summary>
+ Sostituisce tutte le stringhe trovate all'interno del file, partendo dall'inizio, utilizza GetAndSetFileName"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReplaceAllStrFound(System.String,System.String,System.String)">
+ <summary>
+ Sostituisce tutte le stringhe trovate all'interno del file, partendo dall'inizio. Utilizza il nome file completo"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReplaceAllTwoStrFound(System.String,System.String,System.String,System.String)">
+ <summary>
+ Sostituisce tutte le due stringhe trovate all'interno del file con quelle passate, partendo dall'inizio"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReplaceAllTwoStrFound(System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Sostituisce tutte le due stringhe trovate all'interno del file con quelle passate, partendo dall'inizio"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.RemoveAllStarEndCommandString(System.String,System.String,System.String,System.String)">
+ <summary>
+ Elimina le linee che iniziano per sStartCmd e terminano con sEndCmd dal file "sFileTemp" passato.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ReplaceDoublePercentInLine(System.String,System.String)">
+ <summary>
+ Sostutuisce le linee con il doppio percento (quello di fine prg ed inizio del successivo) con una stringa vuota (Fanuc)
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.RemoveInString(System.String,System.String,System.String)">
+ <summary>
+ Elimina una stringa dalla posizione sStart alla posizione sEnd, all'interno della stringa passata.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.ExtractComment(System.String,System.String,System.String)">
+ <summary>
+Estrae il contenuto del commento dati inizio e fine, se passo chiusura commento = "" prendo la stringa fino alla fine
+La variabile pubblica iStrPos mi restituise la linea in cui ho trovato il comando.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.SearchFirstCommand(System.String,System.String,System.Boolean)">
+ <summary>
+Verifica l'esistenza di un comando specificato, True gestisce ".cnc"
+La variabile pubblica iStrPos mi restituise la linea in cui ho trovato il comando.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.SearchFirstCommand(System.String,System.String,System.String,System.Boolean)">
+ <summary>
+Verifica l'esistenza di due comandi specificati, True gestisce ".cnc"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.SearchLastCommand(System.String,System.Boolean)">
+ <summary>
+Verifica l'esistenza di un comando specificato, True gestisce ".cnc"
+La variabile pubblica iStrPos mi restituise la linea in cui ho trovato il comando, se ne trova più di uno restituisce l'ultimo.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.PositionCommand(System.String,System.Boolean)">
+ <summary>
+Restituisce la posizione del comando specificato, True gestisce ".cnc"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.PositionCommand(System.String,System.String,System.Boolean)">
+ <summary>
+Restituisce la posizione del comando specificato per il file passato, True gestisce ".cnc"
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.InsertSaveCommandBefore(System.String,System.String,System.String,System.String,System.Int32)">
+ <summary>
+Inserisce il comando SALVA se manca, prima della stringa specificata (no CUSTOMER). Viene passato il nome senza ext cnc.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.CreateTextFile(System.String,System.String)">
+ <summary>
+Crea un file di testo con il nome completo passato, contenente la stringa passatagli .
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.InsertSaveCommandAfter(System.String,System.String,System.String)">
+ <summary>
+Inserisce il comando SALVA se manca, prima della stringa specificata. Viene passato il nome senza ext cnc.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.MakeFileContentUpper(System.String)">
+ <summary>
+Converte tutto il file in maiuscolo
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.ManageFiles.WriteData(System.String,System.String)">
+ <summary>
+Scrive sLine sul file sDataFile in modalità Append.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.Manage_PowerDOC.HasRecordInData(System.String,System.String)">
+ <summary>
+ Verifica se trovo un record nella tabella data di PowerDOC, passo codice1 e macchina
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.Manage_PowerDOC.InsertRecordFromProcol(System.Windows.Forms.DataGridViewRow,System.String,System.String)">
+ <summary>
+ Inserisce un Record nella tabella DATA in base ai dati passati dal record selezionato nella GridView.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.Manage_PowerDOC.UpdatePrg(System.String)">
+ <summary>
+ Si occupa della scrittura del record Record nella tabella DATA.
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.Manage_PowerDOC.SelectIdDataFromCodice1(System.String,System.String)">
+ <summary>
+ Restituisce l'IDData del record trovato
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.Manage_PowerDOC.SearchAttachments(System.String,System.String,System.Int32,System.String)">
+ <summary>
+ Verifica Se devo recuperare degli allegati da procol ed inserirli in PowerDOC
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.Manage_PowerDOC.InsertDataAttachment(System.String,System.String,System.String,System.String)">
+ <summary>
+ Inserisce un Allegato in PowerDOC
+ </summary>
+</member>
+<member name="M:ImportWinFormSupport.Manage_PowerDOC.ConvertMacut(System.String)">
+ <summary>
+ Converte il nome della macchina su Procol nell'equivalente su PowerDOC.
+ </summary>
+</member>
+<member name="T:ImportWinFormSupport.nyDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ImportWinFormSupport.nyDataSet.tabellonaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ImportWinFormSupport.nyDataSet.tabellonaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ImportWinFormSupport.nyDataSet.tabellonaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ImportWinFormSupport.nyDataSetTableAdapters.tabellonaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ImportWinFormSupport.nyDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ImportWinFormSupport.nyDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ImportWinFormSupport.nyDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ImportWinFormSupport.nyDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ImportWinFormSupport.nyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ImportWinFormSupport.nyDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ImportWinFormSupport.nyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ImportWinFormSupport.nyDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ImportWinFormSupport.nyDataSetTableAdapters.TableAdapterManager.UpdateAll(ImportWinFormSupport.nyDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ImportWinFormSupport.nyDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ImportWinFormSupport.nyDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

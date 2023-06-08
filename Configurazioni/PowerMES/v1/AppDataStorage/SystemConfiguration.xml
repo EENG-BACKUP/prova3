@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Repeaters>
+    <ImplementationsFullName>
+      <string>Atys.PowerMES.Repeaters.BufferedDbRepeater</string>
+    </ImplementationsFullName>
+  </Repeaters>
+  <DataSources>
+    <ImplementationsFullName>
+      <string>Atys.PowerMES.DataSource.FileWatcherDataSource</string>
+    </ImplementationsFullName>
+  </DataSources>
+  <Authentication>
+    <ImplementationFullName>Atys.AppAuth.Providers.ServiceSimple.AppAuthSvcSimpleProvider</ImplementationFullName>
+  </Authentication>
+</SystemConfiguration>

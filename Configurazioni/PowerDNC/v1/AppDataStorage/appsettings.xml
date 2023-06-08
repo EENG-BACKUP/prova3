@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PowerDncAppSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ServiceAttributes />
+  <RemoteServerName>TRAVAGLINI</RemoteServerName>
+  <Port>8000</Port>
+  <ClientLoginEnabled>true</ClientLoginEnabled>
+  <DisableServerDiscovery>false</DisableServerDiscovery>
+  <TracingSettings>
+    <Enabled>false</Enabled>
+    <DatabaseInstanceName>(local)</DatabaseInstanceName>
+    <DatabaseName />
+    <TableName>DncActions</TableName>
+    <UseSpecificUser>false</UseSpecificUser>
+    <UserName />
+  </TracingSettings>
+  <DocumentManagement>
+    <Enabled>false</Enabled>
+    <Provider>Default</Provider>
+    <LegacyProviderSettings>
+      <SettingsFileFullPath />
+    </LegacyProviderSettings>
+  </DocumentManagement>
+</PowerDncAppSettings>

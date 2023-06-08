@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DvcApplicationSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <InstallationId>UNKNOWN</InstallationId>
+  <Database>
+    <InstanceName>(local)</InstanceName>
+  </Database>
+  <RemoteServer>
+    <RemoteServerName>DESKTOP-VSDRQ75</RemoteServerName>
+    <Port>8600</Port>
+    <ClientLoginEnabled>true</ClientLoginEnabled>
+    <DisableServerDiscovery>false</DisableServerDiscovery>
+  </RemoteServer>
+  <MesClient>
+    <Enabled>false</Enabled>
+    <RemoteServerName>DESKTOP-VSDRQ75</RemoteServerName>
+    <Port>8300</Port>
+  </MesClient>
+  <DataTracing>
+    <TracingEnabled>false</TracingEnabled>
+    <TraceAllChangesEnabled>true</TraceAllChangesEnabled>
+    <TraceLatestValueChangeEnabled>false</TraceLatestValueChangeEnabled>
+    <DatabaseInstanceName>(local)</DatabaseInstanceName>
+    <DatabaseName>AtysPowerMES</DatabaseName>
+    <TraceTableName>DVC_DataTracing</TraceTableName>
+    <UserName>PowerMES</UserName>
+    <UserCryptedPassword>di3Wjg4ulxkCnBUM3zYno2EpbY3pCiarFsHZ/wfLQag=</UserCryptedPassword>
+    <SingleInsertMaxRetries>5</SingleInsertMaxRetries>
+    <TraceInterval>3000</TraceInterval>
+    <InsertMaxItemCount>200</InsertMaxItemCount>
+    <LimitedTimeTracingEnabled>false</LimitedTimeTracingEnabled>
+    <LimitedDataTracingStartDate>0001-01-01T00:00:00</LimitedDataTracingStartDate>
+    <LimitedDataTracingEndDate>0001-01-01T00:00:00</LimitedDataTracingEndDate>
+    <LatestAddressValueRetrievalValidityPeriodInHours>4</LatestAddressValueRetrievalValidityPeriodInHours>
+    <DataTracingMaintenance>
+      <AutoMaintenanceEnabled>false</AutoMaintenanceEnabled>
+      <MaintenaceFrequency>12</MaintenaceFrequency>
+      <MaintenanceFrequencyMeasUnit>Hour</MaintenanceFrequencyMeasUnit>
+      <MaintenanceKeepLastInterval>3</MaintenanceKeepLastInterval>
+      <MaintenanceKeepLastIntervalMeasUnit>Hour</MaintenanceKeepLastIntervalMeasUnit>
+    </DataTracingMaintenance>
+  </DataTracing>
+  <ConnectedCommands>
+    <Enabled>false</Enabled>
+    <ServicePort>8700</ServicePort>
+  </ConnectedCommands>
+</DvcApplicationSettings>

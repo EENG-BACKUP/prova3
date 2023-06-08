@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<m_dsCNCs xmlns="http://www.tempuri.org/m_dsCNCs.xsd">
+  <xs:schema id="m_dsCNCs" targetNamespace="http://www.tempuri.org/m_dsCNCs.xsd" xmlns:mstns="http://www.tempuri.org/m_dsCNCs.xsd" xmlns="http://www.tempuri.org/m_dsCNCs.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="m_dsCNCs" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CNC">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="IDCNC" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" type="xs:int" />
+                <xs:element name="MachineName" type="xs:string" />
+                <xs:element name="Path" type="xs:string" minOccurs="0" />
+                <xs:element name="TempFileName" type="xs:string" minOccurs="0" />
+                <xs:element name="Visible" type="xs:boolean" minOccurs="0" />
+                <xs:element name="RxPath" type="xs:string" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="FileExtension" type="xs:string" minOccurs="0" />
+                <xs:element name="MailNotificaDest" type="xs:string" minOccurs="0" />
+                <xs:element name="MailNotificaCC" type="xs:string" minOccurs="0" />
+                <xs:element name="MachineGroup" type="xs:string" minOccurs="0" />
+                <xs:element name="Plant" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:CNC" />
+        <xs:field xpath="mstns:IDCNC" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <CNC>
+    <IDCNC>1</IDCNC>
+    <MachineName>1</MachineName>
+    <MachineGroup>7, 8</MachineGroup>
+    <Plant>555</Plant>
+  </CNC>
+</m_dsCNCs>

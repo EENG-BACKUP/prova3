@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormDataMemento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FormSize>
+    <Width>692</Width>
+    <Height>500</Height>
+  </FormSize>
+  <FormPosition>
+    <X>52</X>
+    <Y>52</Y>
+  </FormPosition>
+</FormDataMemento>

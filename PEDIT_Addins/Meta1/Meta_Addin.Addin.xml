@@ -1,0 +1,179 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Meta_Addin.Addin
+</name>
+</assembly>
+<members>
+<member name="T:Meta_Addin.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Meta_Addin.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Meta_Addin.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Meta_Addin.My.Resources.Resources.boolean_field_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Meta_Addin.My.Resources.Resources.product_in_process_clock_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Meta_Addin.My.Resources.Resources.windows_search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Meta_Addin.My.Resources.Resources.word_icon_c_plac">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Meta_Addin.My.Resources.Resources.word_icon_c_prod">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Meta_Addin.My.Resources.Resources.word_icon_t_plac">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Meta_Addin.My.Resources.Resources.word_icon_t_prod">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.#ctor">
+ <summary>
+ Inizializza una nuova istanza della classe
+ </summary>
+ <remarks>Il costruttore deve essere senza parametri</remarks>
+</member>
+<member name="P:Meta_Addin.Meta_Addin.AddinState">
+ <summary>
+ Restituisce lo stato dell'addin
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.ConnectToUIManager(Atys.PowerEDIT.Extensibility.IExtensionUIManager)">
+ <summary>
+ Memorizza il riferimento al gestore dell'interfaccia utente di PowerEDIT
+ </summary>
+ <param name="uiManager"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.DisconnectFromUIManager">
+ <summary>
+ Richiesta, da parte di PowerEDIT di rilasciare il collegamento al gestore
+ dell'interfaccia utente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Meta_Addin.Meta_Addin.IsUIManagerConnected">
+ <summary>
+ Restituisce se l'addin ha un riferimento attivo al gestore
+ dell'interfaccia utente di PowerEDIT
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.Initialize(Atys.PowerEDIT.IPowerEDITApp)">
+ <summary>
+ Inizializzazione estensione e collegamento all'oggetto principale PowerEDIT
+ (eseguito al caricamento in memoria dell'addin)
+ </summary>
+ <param name="pweApp">Riferimento ad oggetto principale PowerEDIT</param>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.Run">
+ <summary>
+ Richiesta di esecuzione dell'azione principale dell'addin
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.Shutdown">
+ <summary>
+ Deve contenere il codice di cleanup da eseguire prima della disattivazione
+ dell'addin o comunque alla chiusura di PowerEDIT
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.MenuButtonActionNotification(Atys.PowerEDIT.Extensibility.UIMenuBarItemInfo)">
+ <summary>
+ Funzione di callback chiamata da PowerEDIT quando l'utente preme
+ un pulsante aggiunto dall'addin nelle barre menu-ribbon
+ </summary>
+ <param name="menuItem">Pulsante che ha generato l'evento di pressione</param>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.MenuCheckedChangedNotification(Atys.PowerEDIT.Extensibility.UIMenuBarItemInfo,System.Boolean)">
+ <summary>
+ Funzione di callback chiamata da PowerEDIT quando l'utente preme
+ un check button aggiunto dall'addin nelle barre menu-ribbon
+ </summary>
+ <param name="menuItem">Check button di cui è stato cambiato lo stato</param>
+ <param name="newState">Nuovo stato check button</param>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.ImportFromProcolAction">
+ <summary>
+ Esegue l'operazione di importazione da procol
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.UpdateMachines">
+ <summary>
+ Aggiorna i dati macchina
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.InsertMesCommads">
+ <summary>
+ Inserisce i comandi mes nel documento corrente
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.CreateDataSheetAction(Atys.Meta.DataSheets.DataSheetType)">
+ <summary>
+ Crea il documento word con i dati di piazzamento o produzione
+ </summary>
+ <param name="sheetType">Tipo di documento da creare</param>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.Worker_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+ <summary>
+ Gestione evento di worker completato
+ (procedura asincrona di creazione lista terminata)
+ </summary>
+ <param name="sender"></param>
+ <param name="e">Contiene il risultato dell'operazione
+ di creazione del documento</param>
+ <remarks></remarks>
+</member>
+<member name="M:Meta_Addin.Meta_Addin.Worker_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+ <summary>
+ Gestione evento worker che contiene l'azione asincrona da effettuare
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

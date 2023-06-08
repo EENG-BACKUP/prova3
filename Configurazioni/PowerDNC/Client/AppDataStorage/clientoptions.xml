@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClientSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RememberConnectionData>true</RememberConnectionData>
+  <ConnectAtStartup>true</ConnectAtStartup>
+  <LoginEnabled>true</LoginEnabled>
+  <AlertsEnabled>false</AlertsEnabled>
+  <AlertsVisibleTime>5000</AlertsVisibleTime>
+  <MessageUpdateInterval>120</MessageUpdateInterval>
+  <MessageMaxNumber>50</MessageMaxNumber>
+  <MessageLevelFilter>4</MessageLevelFilter>
+  <KeepAliveEnabled>true</KeepAliveEnabled>
+  <KeepAliveInterval>20</KeepAliveInterval>
+</ClientSettings>

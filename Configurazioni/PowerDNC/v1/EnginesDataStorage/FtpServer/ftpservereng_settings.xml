@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FtpServerEngineSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RestartChannelOnSettingsChanged>true</RestartChannelOnSettingsChanged>
+  <ConnectDefaultBehaviour>DisconnectIfConnected</ConnectDefaultBehaviour>
+  <PrinterName />
+  <AsyncPrintJobs>false</AsyncPrintJobs>
+  <UsePrinterCustomMargins>false</UsePrinterCustomMargins>
+  <PrinterTopMargin>25</PrinterTopMargin>
+  <PrinterBottomMargin>25</PrinterBottomMargin>
+  <PrinterLeftMargin>15</PrinterLeftMargin>
+  <PrinterRightMargin>15</PrinterRightMargin>
+  <ShowPasswordsInDiagnostics>false</ShowPasswordsInDiagnostics>
+  <TimeoutEnabled>true</TimeoutEnabled>
+  <Timeout>300000</Timeout>
+  <Port>21</Port>
+  <Enabled>true</Enabled>
+</FtpServerEngineSettings>

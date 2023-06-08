@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InOutConvProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>PWEBase</Name>
+  <OutConv>
+    <Enabled>false</Enabled>
+    <AddNullsAtBegin>false</AddNullsAtBegin>
+    <AddNullsAtBeginNumber>0</AddNullsAtBeginNumber>
+    <AddNullsAtEnd>false</AddNullsAtEnd>
+    <AddNullsAtEndNumber>0</AddNullsAtEndNumber>
+    <RemoveHeader>true</RemoveHeader>
+    <RemoveWhitespaces>false</RemoveWhitespaces>
+    <RemoveUnwantedChars>false</RemoveUnwantedChars>
+    <RemoveUnwantedCharsCodes>13 18 20 00</RemoveUnwantedCharsCodes>
+    <RemoveDncCommands>false</RemoveDncCommands>
+    <RemoveComments>false</RemoveComments>
+    <ReplaceHeaderCrLf>false</ReplaceHeaderCrLf>
+    <ReplaceEndBlockCrLf>false</ReplaceEndBlockCrLf>
+    <ReplaceHeader>true</ReplaceHeader>
+    <ReplaceHeaderCharCodes>37</ReplaceHeaderCharCodes>
+    <ReplaceFooter>true</ReplaceFooter>
+    <ReplaceFooterCharCodes>37</ReplaceFooterCharCodes>
+    <Replacements />
+    <ProgramCommandsToDelete />
+    <SkipComments>false</SkipComments>
+    <SkipCommands>false</SkipCommands>
+  </OutConv>
+  <InConv>
+    <Enabled>false</Enabled>
+    <AddCrLfAfterHeader>false</AddCrLfAfterHeader>
+    <ReplaceEobWithCrLf>false</ReplaceEobWithCrLf>
+    <RemoveUnwantedChars>true</RemoveUnwantedChars>
+    <RemoveUnwantedCharsCodes>13 18 20 00</RemoveUnwantedCharsCodes>
+    <AddWhitespacesAfterProgramCommands>true</AddWhitespacesAfterProgramCommands>
+    <ProgramCommandsSpecialCharCodes>46 44</ProgramCommandsSpecialCharCodes>
+    <SkipComments>false</SkipComments>
+    <ReplaceHeader>true</ReplaceHeader>
+    <ReplaceHeaderCharCodes>37</ReplaceHeaderCharCodes>
+    <ReplaceFooter>true</ReplaceFooter>
+    <ReplaceFooterCharCodes>37 13 10</ReplaceFooterCharCodes>
+    <Replacements />
+    <RemoveHeaderSection>false</RemoveHeaderSection>
+    <RemoveFooterSection>false</RemoveFooterSection>
+    <SkipCommands>false</SkipCommands>
+  </InConv>
+</InOutConvProfile>

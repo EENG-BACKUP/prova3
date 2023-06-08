@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Database>
+    <InstanceName>(local)</InstanceName>
+    <DatabaseName>AtysPowerMES</DatabaseName>
+    <UserName>PowerMES</UserName>
+    <UserCryptedPassword>di3Wjg4ulxkCnBUM3zYno2EpbY3pCiarFsHZ/wfLQag=</UserCryptedPassword>
+    <UseIntegratedSecurity>false</UseIntegratedSecurity>
+    <UpdateWorkingTimesItemsBeforeEdit>false</UpdateWorkingTimesItemsBeforeEdit>
+    <WorkingTimesEditArticlesFilter />
+    <LoadInterruptedCyclesOnBaseAnalysis>false</LoadInterruptedCyclesOnBaseAnalysis>
+    <OptimizedCacheEnabled>false</OptimizedCacheEnabled>
+  </Database>
+  <General>
+    <AutoLoadGridLayouts>false</AutoLoadGridLayouts>
+    <TimeViewMode>Default</TimeViewMode>
+    <ForceTimeExportAsTotalSeconds>true</ForceTimeExportAsTotalSeconds>
+    <UnmergeGridCellsOnExport>true</UnmergeGridCellsOnExport>
+    <FrequencyCalculationSecondsPerHour>3600</FrequencyCalculationSecondsPerHour>
+    <WorkShiftFilterFormPreSelection>None</WorkShiftFilterFormPreSelection>
+    <UILanguage>DEFAULT</UILanguage>
+    <AnalysisChartPaneWidth>360</AnalysisChartPaneWidth>
+  </General>
+  <Live>
+    <IsLocalHost>true</IsLocalHost>
+    <ServerName />
+    <Port>8100</Port>
+    <UserName>guest</UserName>
+    <Password />
+    <UpdatePerformanceCounters>false</UpdatePerformanceCounters>
+    <ShowResourceDescriptionAsName>false</ShowResourceDescriptionAsName>
+    <UpdateCountersAtStartup>false</UpdateCountersAtStartup>
+    <UpdatePerformanceCountersOnItemDone>true</UpdatePerformanceCountersOnItemDone>
+    <UsePerformanceLocalCalculation>false</UsePerformanceLocalCalculation>
+    <UpdatePerformanceAtStartup>false</UpdatePerformanceAtStartup>
+  </Live>
+  <Performance>
+    <ProductivityYellowThreshold>61</ProductivityYellowThreshold>
+    <ProductivityGreenThreshold>81</ProductivityGreenThreshold>
+    <ProductivityBlueThreshold>101</ProductivityBlueThreshold>
+    <ProductivityComputation>PartProgramCycle</ProductivityComputation>
+    <EfficiencyYellowThreshold>61</EfficiencyYellowThreshold>
+    <EfficiencyGreenThreshold>81</EfficiencyGreenThreshold>
+    <EfficiencyBlueThreshold>101</EfficiencyBlueThreshold>
+    <EfficencyUseCalenderOnly>false</EfficencyUseCalenderOnly>
+    <EfficiencyAddClosedCyclesToWorkTime>false</EfficiencyAddClosedCyclesToWorkTime>
+    <ResourceEfficiencyView>
+      <WorkedTimeChartShowLabels>false</WorkedTimeChartShowLabels>
+      <WorkedTimeChartShowSetupAndAcceptanceTimeInWorkColumn>false</WorkedTimeChartShowSetupAndAcceptanceTimeInWorkColumn>
+      <WorkedTimeChartShowSuspAndMaintenanceTimeInWorkColumn>false</WorkedTimeChartShowSuspAndMaintenanceTimeInWorkColumn>
+    </ResourceEfficiencyView>
+    <EfficiencyAddSetupModeToWorkTime>false</EfficiencyAddSetupModeToWorkTime>
+  </Performance>
+  <Calendar>
+    <WeekViewsResourcesPerPage>3</WeekViewsResourcesPerPage>
+    <DayViewResourcesPerPage>5</DayViewResourcesPerPage>
+    <HorizontalViewsResourcesPerPage>5</HorizontalViewsResourcesPerPage>
+    <MounthViewResourcesPerPage>2</MounthViewResourcesPerPage>
+    <FetchEnabled>false</FetchEnabled>
+  </Calendar>
+  <WorkDocuments>
+    <MeasurementSetsImportDefaultPath />
+  </WorkDocuments>
+</ApplicationSettings>

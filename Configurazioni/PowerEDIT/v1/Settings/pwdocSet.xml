@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<App xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Abilitato>true</Abilitato>
+  <CampiNote />
+  <PercorsoVault>c:\cnc\00</PercorsoVault>
+  <GestioneUtenti>true</GestioneUtenti>
+  <PercorsoRX />
+  <DisableRxFileAutoDetect>false</DisableRxFileAutoDetect>
+  <PercorsoTX />
+  <PercorsoArchivio />
+  <DatabaseServer>DESKTOP-VSDRQ75\SQLEXPRESS</DatabaseServer>
+  <PercorsoDisposizioneColonne />
+  <RicercaIncrementale>true</RicercaIncrementale>
+  <IncludeFileExtension>false</IncludeFileExtension>
+  <AttachmentsDefaultDirectory />
+  <ReviewsManagementEnabled>false</ReviewsManagementEnabled>
+  <ReviewsPath />
+  <AskForReviewIncrementOnSave>false</AskForReviewIncrementOnSave>
+  <SqlInsertDateTimeFormat>dd/MM/yyyy HH:mm:ss</SqlInsertDateTimeFormat>
+  <ForceOpenDocsInPwe>false</ForceOpenDocsInPwe>
+  <ForceOpenPdfInViewer>false</ForceOpenPdfInViewer>
+  <ForceOpenExcelInViewer>false</ForceOpenExcelInViewer>
+  <DoNotAskConfirmOnDocDelete>false</DoNotAskConfirmOnDocDelete>
+  <OpenFindFormAtStartup>false</OpenFindFormAtStartup>
+  <OpenFindFormMaximized>false</OpenFindFormMaximized>
+  <UseRowExtendedMenu>true</UseRowExtendedMenu>
+  <DisableAttachmentsFindFormAutoPreview>false</DisableAttachmentsFindFormAutoPreview>
+  <CheckForSingleFindFormRowChanges>false</CheckForSingleFindFormRowChanges>
+  <LoadDataByGroupAndUser>true</LoadDataByGroupAndUser>
+  <CustomerCommandsPanelEnabled>false</CustomerCommandsPanelEnabled>
+  <CustomerCommandsPanelCaption />
+  <CustomerCommandsPanelEnabled2>false</CustomerCommandsPanelEnabled2>
+  <CustomerCommandsPanelCaption2 />
+  <CustomerCommandsPanelEnabled3>false</CustomerCommandsPanelEnabled3>
+  <CustomerCommandsPanelCaption3 />
+  <CustomerCommandsPanelEnabled4>false</CustomerCommandsPanelEnabled4>
+  <CustomerCommandsPanelCaption4 />
+  <CustomerCommandsPanelEnabled5>false</CustomerCommandsPanelEnabled5>
+  <CustomerCommandsPanelCaption5 />
+  <CustomerCommandsPanelEnabled6>false</CustomerCommandsPanelEnabled6>
+  <CustomerCommandsPanelCaption6 />
+  <CustomerCommandsPanelEnabled7>false</CustomerCommandsPanelEnabled7>
+  <CustomerCommandsPanelCaption7 />
+  <CustomerCommandsPanelEnabled8>false</CustomerCommandsPanelEnabled8>
+  <CustomerCommandsPanelCaption8 />
+  <CustomerCommandsPanelEnabled9>false</CustomerCommandsPanelEnabled9>
+  <CustomerCommandsPanelCaption9 />
+  <CustomerCommandsPanelEnabled10>false</CustomerCommandsPanelEnabled10>
+  <CustomerCommandsPanelCaption10 />
+  <CustomerCommandsSubMenuCaption />
+  <GestioneFiles>false</GestioneFiles>
+  <CopyAttachmentsOnCheckIn>false</CopyAttachmentsOnCheckIn>
+  <CopyAttachmentsTxRelativeFolder />
+  <CopyAttachmentsExtensions />
+  <Struttura_CNC_Cliente>true</Struttura_CNC_Cliente>
+  <Struttura_Cliente_CNC>false</Struttura_Cliente_CNC>
+  <Contoterzista>false</Contoterzista>
+  <EnableCustomerMacutEditingOnSave>false</EnableCustomerMacutEditingOnSave>
+  <PercorsoModelliStampa />
+  <FileCompareIgnoreTrailingWhiteSpaces>false</FileCompareIgnoreTrailingWhiteSpaces>
+  <FileCompareIgnoreWhiteSpacesOnlyDifferences>false</FileCompareIgnoreWhiteSpacesOnlyDifferences>
+  <FileCompareIgnoreCase>false</FileCompareIgnoreCase>
+  <FileCompareCompletelyDifferentFactor>0</FileCompareCompletelyDifferentFactor>
+  <FileCompareCompletelyDifferentBigMinSize>0</FileCompareCompletelyDifferentBigMinSize>
+  <DncUseSpecificCredentials>false</DncUseSpecificCredentials>
+  <DncIsLocalHost>true</DncIsLocalHost>
+  <DncServerName />
+  <DncPort>8000</DncPort>
+  <DncTargetMachines />
+  <DncUserName />
+  <DncPassword />
+</App>

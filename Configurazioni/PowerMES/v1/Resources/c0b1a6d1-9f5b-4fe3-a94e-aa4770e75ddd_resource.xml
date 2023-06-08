@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MesResourceSerializationStub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UniqueId>c0b1a6d1-9f5b-4fe3-a94e-aa4770e75ddd</UniqueId>
+  <Name>TEST</Name>
+  <DisplayName>TEST</DisplayName>
+  <Enabled>true</Enabled>
+  <Description />
+  <GroupName>PowerMES</GroupName>
+  <OrderId>0</OrderId>
+  <IsSetupModeActive>false</IsSetupModeActive>
+  <IsMaintenanceModeActive>false</IsMaintenanceModeActive>
+  <SetupModeArticleName>fds</SetupModeArticleName>
+  <SetupModeArticlePhase>dsa</SetupModeArticlePhase>
+  <SetupModeArticleRev />
+  <DataOverrideQuantity>0</DataOverrideQuantity>
+  <MaintenanceModeUtcStartTimeString>01/01/0001 00:00:00 000</MaintenanceModeUtcStartTimeString>
+  <SetupModeUtcStartTimeString>01/01/0001 00:00:00 000</SetupModeUtcStartTimeString>
+  <IsAcceptanceTestModeActive>false</IsAcceptanceTestModeActive>
+  <AcceptanceTestModeUtcStartTimeString>01/01/0001 00:00:00 000</AcceptanceTestModeUtcStartTimeString>
+  <SpecialModeId>417a2eab-1b64-4d57-8366-a95a633bb8f3</SpecialModeId>
+</MesResourceSerializationStub>

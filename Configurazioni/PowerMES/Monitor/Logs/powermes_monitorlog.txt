@@ -1,0 +1,37 @@
+2022-01-26 13:39:14,115 [1] DEBUG POWERMES_MONITORLOG - Application start...
+2022-01-26 13:39:16,923 [1] DEBUG POWERMES_MONITORLOG - Is 64 bit OS  : True
+2022-01-26 13:39:16,923 [1] DEBUG POWERMES_MONITORLOG - Is 64 bit Proc: False
+2022-01-26 13:39:16,961 [1] DEBUG POWERMES_MONITORLOG - Machine ID    : 6X13T-QUT3P-R9S21-XVP77
+2022-01-26 13:42:27,883 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication ctor
+2022-01-26 13:42:27,886 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.JoinToLicense(): function called...
+2022-01-26 13:42:27,889 [1] DEBUG POWERMES_MONITORLOG - Reading product licensing informations...
+2022-01-26 13:42:28,571 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.Initialize(): start.
+2022-01-26 13:42:28,579 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadApplicationSettings(): start.
+2022-01-26 13:42:28,585 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadApplicationSettings(): null data loaded, generating default.
+2022-01-26 13:42:28,725 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.SaveApplicationSettings(): ok
+2022-01-26 13:42:28,726 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadApplicationSettings(): done.
+2022-01-26 13:42:29,640 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.Initialize(): trying to connect DataLoader to '(local)'
+2022-01-26 13:43:00,195 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadSharedSettings(): start.
+2022-01-26 13:43:00,204 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadSharedSettings(): done.
+2022-01-26 13:43:00,207 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadAdvancedAuthSettings(): start.
+2022-01-26 13:43:00,211 [1] WARN  POWERMES_MONITORLOG - MonitorApplication.LoadAdvancedAuthSettings(): failed to load shared settings.
+2022-01-26 13:43:00,215 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadAdvancedAuthSettings(): done.
+2022-01-26 13:43:00,217 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.Initialize(): done.
+2022-02-22 11:46:12,240 [1] DEBUG POWERMES_MONITORLOG - Application start...
+2022-02-22 11:46:13,951 [1] DEBUG POWERMES_MONITORLOG - Is 64 bit OS  : True
+2022-02-22 11:46:13,954 [1] DEBUG POWERMES_MONITORLOG - Is 64 bit Proc: False
+2022-02-22 11:46:13,972 [1] DEBUG POWERMES_MONITORLOG - Machine ID    : 6X13T-QUT3P-R9S21-XVP77
+2022-02-22 11:46:19,786 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication ctor
+2022-02-22 11:46:19,788 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.JoinToLicense(): function called...
+2022-02-22 11:46:19,790 [1] DEBUG POWERMES_MONITORLOG - Reading product licensing informations...
+2022-02-22 11:46:20,209 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.Initialize(): start.
+2022-02-22 11:46:20,211 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadApplicationSettings(): start.
+2022-02-22 11:46:20,319 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.SaveApplicationSettings(): ok
+2022-02-22 11:46:20,319 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadApplicationSettings(): done.
+2022-02-22 11:46:21,242 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.Initialize(): trying to connect DataLoader to '(local)'
+2022-02-22 11:46:50,961 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadSharedSettings(): start.
+2022-02-22 11:46:50,964 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadSharedSettings(): done.
+2022-02-22 11:46:50,965 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadAdvancedAuthSettings(): start.
+2022-02-22 11:46:50,967 [1] WARN  POWERMES_MONITORLOG - MonitorApplication.LoadAdvancedAuthSettings(): failed to load shared settings.
+2022-02-22 11:46:50,968 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.LoadAdvancedAuthSettings(): done.
+2022-02-22 11:46:50,968 [1] DEBUG POWERMES_MONITORLOG - MonitorApplication.Initialize(): done.

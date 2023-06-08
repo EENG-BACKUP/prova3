@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TargetProperties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ApplicationId>ADVMNGMT</ApplicationId>
+  <DbInstanceName>127.0.0.1\SQLEXPRESS</DbInstanceName>
+  <DbName>AtysAppAuth</DbName>
+  <DbUserName>AtysAuth</DbUserName>
+  <DbPswString>111 230 2 16 199 3 48 68 167 68 215 156 217 212 223 137 5 49 156 67 99 177 122 190 166 16 71 76 39 34 51 239</DbPswString>
+</TargetProperties>

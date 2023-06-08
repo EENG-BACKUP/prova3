@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEndPointStatusSerializationStub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EndPointStatusSerializationStub>
+    <Id>1</Id>
+    <Target>FtpServer</Target>
+    <Name>TEST_LOCAL</Name>
+    <Connected>true</Connected>
+    <IsAvailable>true</IsAvailable>
+    <IsDebugActive>false</IsDebugActive>
+  </EndPointStatusSerializationStub>
+</ArrayOfEndPointStatusSerializationStub>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClientSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RememberConnectionData>true</RememberConnectionData>
+  <ConnectAtStartup>true</ConnectAtStartup>
+  <LoginEnabled>true</LoginEnabled>
+  <MessageUpdateInterval>120</MessageUpdateInterval>
+  <MessageMaxNumber>50</MessageMaxNumber>
+  <MessageLevelFilter>5</MessageLevelFilter>
+  <KeepAliveEnabled>true</KeepAliveEnabled>
+  <KeepAliveInterval>20</KeepAliveInterval>
+  <ShowResourceDescription>false</ShowResourceDescription>
+  <ShowArticleRevision>false</ShowArticleRevision>
+  <ShowWorkOrder>false</ShowWorkOrder>
+  <PlacementResource>00000000-0000-0000-0000-000000000000</PlacementResource>
+</ClientSettings>
